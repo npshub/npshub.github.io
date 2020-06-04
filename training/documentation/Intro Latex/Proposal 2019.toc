@@ -1,0 +1,26 @@
+\contentsline {section}{\numberline {1}Purpose}{1}
+\contentsline {section}{\numberline {2}Abstract}{1}
+\contentsline {section}{\numberline {3} Background/Context/Problem}{1}
+\contentsline {section}{\numberline {4}Literature Review}{2}
+\contentsline {subsection}{\numberline {4.1}Interaction between ISM and the Stellar Wind}{2}
+\contentsline {subsection}{\numberline {4.2}Inhomogeneity}{3}
+\contentsline {subsection}{\numberline {4.3}Ambient Interstellar Medium}{5}
+\contentsline {subsection}{\numberline {4.4}Asymptotic Giant Branch Phase}{6}
+\contentsline {section}{\numberline {5} Theoretical/Technical Aspect}{6}
+\contentsline {subsection}{\numberline {5.1}Dust Color Temperature Estimation}{6}
+\contentsline {subsection}{\numberline {5.2}Mass Estimation}{8}
+\contentsline {section}{\numberline {6}Significance of the Development/Innovation}{9}
+\contentsline {section}{\numberline {7}Foundational/ Preliminary Work}{10}
+\contentsline {section}{\numberline {8}Development/Innovation Goal/ Objectives}{10}
+\contentsline {section}{\numberline {9}Design / Methodology and Verification }{11}
+\contentsline {subsection}{\numberline {9.1}Research design}{11}
+\contentsline {subsection}{\numberline {9.2}Infrared Astronomical Satellite Survey}{11}
+\contentsline {subsection}{\numberline {9.3}Spitzer Survey Telescope}{11}
+\contentsline {section}{\numberline {10}Expected Product}{12}
+\contentsline {section}{\numberline {11}Limitations and Delimitations}{12}
+\contentsline {subsection}{\numberline {11.1}Limitations}{12}
+\contentsline {subsection}{\numberline {11.2} Delimitations}{12}
+\contentsline {section}{\numberline {12}Ethical/Safety Issues}{13}
+\contentsline {section}{\numberline {13}Organization of the Final Report}{13}
+\contentsline {section}{\numberline {14}Grant Chart and Detailed Budget}{14}
+\contentsline {section}{\numberline {15}Association to National Priority}{15}

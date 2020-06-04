@@ -1,0 +1,234 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\author{Devendra}
+\renewcommand{\bibname}{References}
+\usepackage[left = 1.5in, right = 2.5cm, top = 2.5cm, bottom = 2.5cm]{geometry}
+\begin{document}
+	\begin{titlepage}
+		\centering
+		\Huge\bf STUDY OF DUST PROPERTIES AROUND C-RICH AGB STAR : IRAS 04427+4951
+		\vspace{0.1in}
+		\begin{center}
+			\Large\bf  A Project Work\\
+			\vspace{0.1in}
+			Submitted to the Dean Office,
+			Institute of Science and Technology,
+			Tribhuvan University, Kirtipur in the Partial Fulfillment for the
+			Requirement of Master's Degree of Science in Physics
+		\end{center}
+		\vspace{0.5cm}
+		
+		\centering
+		\includegraphics[height=4cm]{logo}
+		\vspace{1.5cm}
+	\begin{center}
+		\Large\bf By
+		\vspace{0.1cm}\\
+		\huge\bf Meenashree Khanal\\
+		\Large\bf February, 2019
+	\end{center}
+\end{titlepage}
+
+\pagenumbering{roman}
+\addcontentsline{toc}{chapter}{Recommendation}
+\begin{center}
+	\includegraphics[width=1cm]{logo}
+\end{center}	
+\begin{center}
+	\Large{\bfseries Recommendation}
+\end{center}
+It is certified that {\bfseries Ms. Meenashree Khanal} has carried out the project work entitled {\bfseries ``STUDY OF DUST PROPERTIES AROUND C-RICH AGB STAR : IRAS 04427+4951"} under my supervision and guidance.\\ [0.5cm]
+I recommend the project work in the partial fulfillment for the requirement of Master's Degree of Science in Physics.\\[2cm]
+
+\noindent\rule{180pt}{1pt} \hspace{2cm}\rule{180pt}{1pt}\\
+{ \bfseries Mr. Devendra Raj Upadhyay \hspace{2cm} Dr. Shrikrishna Adhikari}\\
+Lecturer\\
+(Supervisor)\\
+Department of Physics\\
+Amrit Campus, Tribhuvan University\\
+Thamel, Kathmandu, Nepal\\[2cm]
+Date:...........................
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Acknowledgement}
+\begin{center}
+	\Large{\bfseries Acknowledgement}
+\end{center}
+
+I am ineffably indebted to my supervisor Lecturer Devendra Raj Upadhyay for conscientious guidance and encouragement to accomplish this assignment. I am thankful and pay my gratitude to Head of Department of Physics Assoc. Prof. Dr. Leela Pradhan Joshi,  Assoc. Prof. Dr. Rajendra Parajuli and Lecturer and  M.Sc. coordinator Mr. Pitamber Shrestha for their valuable support on completion of this project.\\
+I would like to acknowledge all the staffs of administration and library of our Campus for their help and co-operation.\\
+At last but not least, I dedicate this project work to my family for their unconditional love and support for me all throughout. Without them, it would be difficult for me to complete my Master's degree.\\
+Any omission in this brief acknowledgement does not mean lack of gratitude.
+
+\clearpage
+\addcontentsline{toc}{chapter}{Evaluation}
+\begin{center}
+	\Large{\bfseries Evaluation}
+\end{center}
+We certify that we have read this project work and in our opinion it is good in the scope and quality as project work in the Partial fulfillment for the requirement of Master's Degree of Science in Physics.
+\\
+\begin{center}
+	\vspace{1cm}
+	\bf{Evaluation Committee}
+\end{center}
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\begin{minipage}{2in}
+	\begin{center}
+		\line(1,0){150}\\
+		{\bfseries Devendra Raj Upadhyay}\\
+		Lecturer\\
+		(Superviser)\\
+		Department of Physics\\
+		Amrit Campus\\
+		Lainchaur, Kathmandu, Nepal
+	\end{center}
+\end{minipage}
+\hfill
+\begin{minipage}{2in}
+	\begin{center}
+		\line(1,0){150}\\
+		{\bfseries Dr. Leela Pradhan Joshi}\\
+		Associate Prof.\\
+		(Head)\\
+		Department of Physics\\
+		Amrit Campus\\
+		Lainchaur, Kathmandu, Nepal
+	\end{center}
+\end{minipage}
+\hfill
+\begin{minipage}{2in}
+	\begin{center}
+		\line(1,0){150}\\
+		{\bfseries Mr. Pitamber Shrestha}\\
+		Coordinator\\
+		Department of Physics\\
+		Amrit Campus\\
+		Lainchaur, Kathmandu, Nepal
+	\end{center}
+\end{minipage}
+\\\\\\\\\\
+\begin{minipage}{2in}
+	\line(1,0){107}\\
+	{\bfseries Internal Examiner}
+\end{minipage}
+\hfill
+\begin{minipage}{2in}
+	\line(1,0){107}\\
+	{\bfseries External Examiner}
+\end{minipage}
+
+\vspace{2cm}
+\begin{center}
+	Date:...................................
+\end{center}
+\clearpage
+\addcontentsline{toc}{chapter}{Abbreviations}
+\begin{center}
+	\Large{ \bfseries{Abbreviations}}
+\end{center}
+\text{\bf A \& A}: Astronomy and Astrophysics Journal\\
+\text{\bf AJ}: Astronomical Journal\\
+\text{\bf AGB}: Asymptotic Giant Branch\\
+\text{\bf C-rich}: Carbon-rich\\
+\text{\bf FITS}: Flexible Image Transport System\\ 
+\text{\bf FUV}: Far Ultraviolet\\
+\text{\bf HB}: Horizontal Branch\\
+\text{\bf HRD}: Hertzsprung - Russel Diagram\\
+\text{\bf IR}: InfraRed\\
+\text{\bf IRAS}: Infrared Astronomical Survey\\
+\text{\bf  IRIS}: InfraRed Image Sensor\\
+\text{\bf ISM}: Interstellar Medium\\
+\text{\bf ISO}: Infrared Space Observatory\\
+\text{\bf LMS}: Low Mass Star\\
+\text{\bf LTE}: Local Thermal Equilibrium\\
+\text{\bf MLRs}: Mass loss rates\\
+\text{\bf MS}: Main Sequence\\
+\text{\bf O-rich}: Oxygen-rich\\
+\text{\bf SN}: SuperNova\\
+\text{\bf SW}: Super Wind\\
+\text{\bf WD}: White Dwarf\\
+\text{\bf ZAMS}: Zero Age main Sequence\\
+\text{\bf R.A.}: Right Ascension\\
+\text{\bf DEC}: Declination\\
+\text{\bf NASA}: National Aeronautics and Space Administration\\
+\text{\bf LIMS}: Low Intermediate Mass Star\\
+\clearpage
+\addcontentsline{toc}{chapter}{Abstract}
+\begin{center}
+	\Large{ \bfseries{Abstract}}
+\end{center}
+We studied the dust properties of C-rich AGB star with IRAS name 04427+4951 located at R.A. (J2000) = $04^{hr}$ $46^{m}$ $33^{s}$ and Dec. (J2000) = $+49^{o}$ $56^{'}$ $20.1^{''}$. We chose this AGB star from the list of coordinates of AGB stars listed in SkyView Observatory. We also obtained the Flexible Image Transport System (FITS) image of this AGB star. We calculated the flux of ambient medium in the wavelength range 60 $\mu$m and 100 $\mu$m. We plotted the contour plot of dust mass, dust color temperature and plank's function with the corresponding R.A. and DEC.. We also calculated the mass whose average value was found to be $5.1\times10^{27}$ kg and the dust color temperature of the corresponding C-rich star whose average value was found to be 23.4 K and the average value of the  corresponding plank's function is found to be $8.1\times10^{-16}Wm^{-2}sr^{-1}Hz^{-1}$. From the contour plots of mass and dust color temperature we found the inverse relation between them.
+\tableofcontents
+\pagebreak
+\pagenumbering{arabic}
+\chapter{Introduction}
+\section{Background and Statement Of Problem}
+
+The asymptotic giant branch (AGB) is a region of the Hertzsprung-Russel diagram populated by the evolved cool luminous stars. This is a period of the stellar evolution undertaken by all low to intermediate mass stars (0.6-10)$M_{\odot}$ late in their lives.
+
+Once the hydrogen in the center of the star is exhausted by the nuclear fusion process, the core contracts and its temperature increases, causing the outer layer of the star to expand and cool. The star becomes a red giant, and moves towards the upper-right hand corner of the HR diagram. And as the temperature in the core has reached approxmiately $3\times 10^8K$, helium burning (fusion of helium nuclei) begins. The onset of helium burning in the core halts the star's cooling and increase in luminousity, and the star instead moves down and leftwards in the HR diagram. This is the horinzontal branch. 
+
+As the helium burning in the core is completed, the star again moves to the right and upward on the diagram, cooling and expanding as it's luminousity increases. It almost follows the track of path of previous red-giant star, hence named asymptotic giant branch. Although the star will become more luminous  on the AGB than it did at the tip of the red giant branch, the stars at this stage of stellar evolution are known as AGB Stars\cite{D. Gobrecht}.
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=15cm]{hrd}
+%	\caption{HR Diagram\cite{Hertzsprung}.}
+%\end{figure}
+\clearpage
+The dust grains are formed from the condensation of gas molecules present in the expanding winds. During the evolution of stars along AGB (SAGB) phase, the informations such as temporal variation of mass, mass loss rate, luminousity, effective temperature, the surface chemical composition are used to model the thermodynamical and chemical structure of the wind, hence to describe the dust formation process.
+
+In summary, the amount of dust produced and its composition are mainly determined by the following quantities:
+\begin{enumerate}
+	\item Particularly the physical parameters of the central star such as luminousity, effective temperature and the mass loss rate determine the radial variation of thermodynamics of wind.
+	
+	\item The dominancy of dust species, ie whether silicates or carbon dust according to C/O ratio are determined by the surface chemistry of the star. And, the quantity of the dust formed is determined by mass fractions of the key elements.
+	
+	\item The extinction coefficient is determined by the description of the absorption and scattering process for various elements.
+	
+\end{enumerate}	
+\section{ Motivation}
+\renewcommand{\labelitemi}{$\circ$}
+\begin{itemize}
+	
+	\item	Physical Structure
+	
+	During their lifetime, the AGB stars blow off their outer layers, forming an interstellar cloud of gas and dust grains. Our solar system is believed to have formed from such a cloud around 4.6 billion years ago. While most of the grains were destroyed in the process of making new rocks and planets, a small fraction survived and is present in meteorites.
+	
+	\item Chemical Composition
+	
+	The chemical composition of the dust grains reveal important clues about the nuclear processes inside stars that leads to their (star) formation.
+	\\AGB stars are known to produce vast amount of dust, the composition of grains recovered from meteorites did not seem to match those expected from these stars.
+	
+	\item The effect of the nuclear reactions in stars clearly observed in some stardust grains found in meteorites, resolving the mystry of origin.
+	
+\end{itemize}
+\section{Objectives}
+\renewcommand{\labelitemi}{$\circ$}
+\begin{itemize}
+	
+	\item
+	
+	To investigate the new isolated cavity structure including cavity in	IRAS maps performing a systematic search in all wavelength band in
+	the IRAS survey of C-rich O-rich and Si-rich AGB stars catalogue.
+	
+	\item
+	
+	To investigate the dust color temperature, mass profile, outflow nature
+	and associated energy of the structure.
+	
+	\item
+	
+	To know the model of cavity formation due to AGB wind, we intend to
+	study the flux density, dust color temperature, mass variation and their
+	distribution using different Map.
+\end{itemize}
+\end{document}
