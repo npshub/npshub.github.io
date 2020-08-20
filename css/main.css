@@ -2002,7 +2002,6 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
 .nav-menu, .nav-menu * {
-  
   margin: 0;
   padding: 0;
   list-style: none;
@@ -2069,9 +2068,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 8px 0px 8px;
   text-decoration: none;
   display: inline-block;
-  color: blue;
+  color: #fff;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 12px;
   text-transform: uppercase;
   outline: none;
 }
